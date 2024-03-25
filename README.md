@@ -6,19 +6,23 @@ Source codes for generating figures and computing statistics for the open-access
 2) plot and compute statistics from ./data
 
 # Directory tree
-|- root
-    |- README.md
-    |- geckodriver.exe (download at https://github.com/mozilla/geckodriver)
-    |- modules.py
-    |- web_scraping.py
-    |- Data/
-        |- temperature
-        |- ...
-    |- modules/
-        |- (under construction)
-        
+```
+├── HKCNE-climate/
+|   ├─ README.md
+|   ├─ geckodriver.exe (download at https://github.com/mozilla/geckodriver)
+|   ├─ modules.py
+|   ├─ web_scraping.py
+|   ├─ Data/
+|       ├─ temperature
+|       ├─ ...
+|   ├─ modules/
+|       ├─ (under construction)
+└──
+```
+
 # [web_scraping.py] Sample output format
 | (Index) | Day | Jan | Feb | ... | Nov | Dec |
+| ------- | --- | --- | --- | --- | --- | --- |
 |    0    |  1  |     |     | ... | 25.2| 17.8|
 |    1    | ... | ... | ... | ... | ... | ... |
 
